@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
     <style>
         /* 1st */
 
 
         /* 2nd */
+
+        .searchContainer {
+            margin: 1em 0 0 10em;
+        }
+
+        .bar{
+             padding-left: 120px;
+   
+        }
+        .expressDelivery{
+            width: 300px;
+            height:50px;
+            border-radius: 40px;
+            background-color: #c52d30;
+            display: inline-block;
+          color:white;
+          text-indent:12px;
+         padding-top:20px; 
+        }
+       
+      #search{
+        margin: 0 0 0 17em;
+      }
+      #search input{
+        border: none;
+            border-bottom: 1px solid black;
+      }
 
         /* 3rd */
         .card-container {
@@ -28,21 +57,21 @@
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
             height: max-content;
-            width: 100%; 
+            width: 100%;
             margin-bottom: 5%;
         }
 
         .card img {
             margin: auto;
-           height: 100%;
-           width: 100%;
-           
+            height: 100%;
+            width: 100%;
+
         }
 
-        .category{
-            font-family:'Times New Roman', Times, serif;
+        .category {
+            font-family: 'Times New Roman', Times, serif;
             font-size: small;
-           
+
         }
 
         p {
@@ -57,7 +86,8 @@
             position: absolute;
             top: 10px;
             left: 0px;
-            background-image: linear-gradient(285deg, rgb(46, 164, 224), rgb(49, 198, 132));color: rgb(255, 255, 255);
+            background-image: linear-gradient(285deg, rgb(46, 164, 224), rgb(49, 198, 132));
+            color: rgb(255, 255, 255);
         }
 
         .top-right {
@@ -65,27 +95,55 @@
             top: 10px;
             right: 10px;
         }
-        .inner-container{
-         margin: 1%;   
+
+        .inner-container {
+            margin: 1%;
         }
-        .logo{
-        /* margin: 0 0 0 10px; */
-        position: relative;
-        right: -200px;
+
+        .logo {
+            /* margin: 0 0 0 10px; */
+            position: relative;
+            right: -200px;
         }
     </style>
 </head>
+
 <body>
     <!-- 1st -->
 
 
 
     <!-- 2nd -->
+<div class="searchContainer">
 
+    <a href="https://reebok.abfrl.in/"><img style="width: 10%; padding-left: 40px;"
+            src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format"
+            alt="reebok"></a>
+    <span class="bar">
+        <a style="text-decoration: none; color: black"
+            href="https://reebok.abfrl.in/c/new-feature-collection-reebok">NEW</a> &nbsp;&nbsp;
+        <a style="text-decoration: none; color: black" href="https://reebok.abfrl.in/c/men">MEN</a> &nbsp;&nbsp;
+        <a style="text-decoration: none; color: black" href="https://reebok.abfrl.in/c/women">WOMEN</a> &nbsp;&nbsp;
+        <a style="text-decoration: none; color: black" href="https://reebok.abfrl.in/shop/icons">ICONS</a> &nbsp;&nbsp;
+        <a style="text-decoration: none; color: black"
+            href="https://reebok.abfrl.in/c/sports-men-megamenu-l1">SPORTS</a> &nbsp;&nbsp;
+        <a style="text-decoration: none; color: black" href="https://reebok.abfrl.in/c/classics-all">CLASSICS</a>
+        &nbsp;&nbsp;
+        <a style="text-decoration: none; color: red" href="https://reebok.abfrl.in/c/sale-all">SALE</a> &nbsp;&nbsp;
+    </span>
+    <span id="search">
+        <script src="https://kit.fontawesome.com/414ae88f0d.js" crossorigin="anonymous"></script>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="search" name="search" placeholder=" search" />
+    </span>
+    <span class="expressDelivery"> <span id="bus">
+            <script src="https://kit.fontawesome.com/414ae88f0d.js" crossorigin="anonymous"></script>
+            <i class="fa-solid fa-truck"></i>
+        </span>EXPRESS DELIVERY<br>
+        <span style="text-align: center; padding-left: 48px;">Select your nearest store &#62;</span>
+    </span>
 
-
-
-
+</div>
 
     <div class="card-container">
         <div class="inner-container">
@@ -93,50 +151,62 @@
             <div class="card">
                 <span class="top-left">I am the new</span>
                 <span class="top-right material-symbols-outlined">favorite</span>
-                <img src="https://imagescdn.reebok.in/img/app/product/3/39624678-12852906.jpg?q=75&auto=format&w=387" alt="">
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39624678-12852906.jpg?q=75&auto=format&w=387"
+                    alt="">
             </div>
-                <p class="category">TRAINING SHOES<span><img class="logo" src ="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
-                <p>Reebok Woman NFX Trainer</p>
+            <p class="category">TRAINING SHOES<span><img class="logo"
+                        src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
+            <p>Reebok Woman NFX Trainer</p>
             <p>
-               <b>&#8377; 3000</b>
-            </p>
-        </div> <div class="inner-container">
-
-            <div class="card">
-                <span class="top-left">I am the new</span>
-                <span class="top-right material-symbols-outlined">favorite</span>
-                <img src="https://imagescdn.reebok.in/img/app/product/3/39627622-12952976.jpg?q=75&auto=format&w=387" alt="">
-            </div>
-                <p  class="category">TRAINING SHOES <span><img class="logo" src ="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
-                <p>Reebok Woman NFX Trainer</p>
-            <p>
-               <b>&#8377; 3000</b>
-            </p>
-        </div> <div class="inner-container">
-
-            <div class="card">
-                <span class="top-left">I am the new</span>
-                <span class="top-right material-symbols-outlined">favorite</span>
-                <img src="https://imagescdn.reebok.in/img/app/product/3/39630553-13059300.jpg?q=75&auto=format&w=387" alt="">
-            </div>
-                <p  class="category">TRAINING SHOES <span><img class="logo" src ="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
-                <p>Reebok Woman NFX Trainer</p>
-            <p>
-               <b>&#8377; 3000</b>
-            </p>
-        </div> <div class="inner-container">
-
-            <div class="card">
-                <span class="top-left">I am the new</span>
-                <span class="top-right material-symbols-outlined">favorite</span>
-                <img src="https://imagescdn.reebok.in/img/app/product/3/39625380-12885039.jpg?q=75&auto=format&w=387" alt="">
-            </div>
-                <p  class="category">TRAINING SHOES <span><img class="logo" src ="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
-                <p>Reebok Woman NFX Trainer</p>
-            <p>
-               <b>&#8377; 3000</b>
+                <b>&#8377; 3000</b>
             </p>
         </div>
+        <div class="inner-container">
+
+            <div class="card">
+                <span class="top-left">I am the new</span>
+                <span class="top-right material-symbols-outlined">favorite</span>
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39627622-12952976.jpg?q=75&auto=format&w=387"
+                    alt="">
+            </div>
+            <p class="category">TRAINING SHOES <span><img class="logo"
+                        src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
+            <p>Reebok Woman NFX Trainer</p>
+            <p>
+                <b>&#8377; 3000</b>
+            </p>
         </div>
+        <div class="inner-container">
+
+            <div class="card">
+                <span class="top-left">I am the new</span>
+                <span class="top-right material-symbols-outlined">favorite</span>
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39630553-13059300.jpg?q=75&auto=format&w=387"
+                    alt="">
+            </div>
+            <p class="category">TRAINING SHOES <span><img class="logo"
+                        src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
+            <p>Reebok Woman NFX Trainer</p>
+            <p>
+                <b>&#8377; 3000</b>
+            </p>
+        </div>
+        <div class="inner-container">
+
+            <div class="card">
+                <span class="top-left">I am the new</span>
+                <span class="top-right material-symbols-outlined">favorite</span>
+                <img src="https://imagescdn.reebok.in/img/app/product/3/39625380-12885039.jpg?q=75&auto=format&w=387"
+                    alt="">
+            </div>
+            <p class="category">TRAINING SHOES <span><img class="logo"
+                        src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
+            <p>Reebok Woman NFX Trainer</p>
+            <p>
+                <b>&#8377; 3000</b>
+            </p>
+        </div>
+    </div>
 </body>
+
 </html>
