@@ -1,212 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <title>Document</title>
     <style>
-        /* 1st */
-
-
-        /* 2nd */
-
-        .searchContainer {
-            margin: 1em 0 0 10em;
-        }
-
-        .bar{
-             padding-left: 120px;
-   
-        }
-        .expressDelivery{
-            width: 300px;
-            height:50px;
-            border-radius: 40px;
-            background-color: #c52d30;
-            display: inline-block;
-          color:white;
-          text-indent:12px;
-         padding-top:20px; 
-        }
-       
-      #search{
-        margin: 0 0 0 17em;
+      /* 1st */
+      header {
+        background-color: #384248;
+        /* font-family: sans-serif; */
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Inter,
+          Open Sans, Bebas Neue, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+          Droid Sans, Helvetica Neue, serif, Arial, sans-serif;
       }
-      #search input{
+
+      label {
+        width: 100px;
+        height: 80px;
+        font-size: 13px;
+        margin-top: 23px;
+        color: #fff;
+        margin-left: 29px;
+        /* flex-basis: 65%; */
+        cursor: pointer;
+      }
+      #brands {
         border: none;
-            border-bottom: 1px solid black;
+        background-color: #384248;
+        color: #fff;
+        display: flex;
+        margin-right: 882px;
+        margin-top: 9px;
+      }
+      #container {
+        height: 55px;
+        display: flex;
+        border: 1px solid black;
       }
 
-        /* 3rd */
-        .card-container {
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            margin: 1% 5% 2% 5%;
-        }
+      img {
+        background-color: #384248;
+        height: 25px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+      }
+      #one {
+        display: flex;
+        font-size: 13px;
+        color: #fff;
+      }
+      #image1 {
+        background-color: #384248;
+        margin-top: 16px;
+        cursor: pointer;
+      }
+      span {
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: -2px;
+      }
+      #two {
+        display: flex;
+        font-size: 13px;
+        color: #fff;
+        cursor: pointer;
+        margin-left: 30px;
+      }
+      #image2 {
+        /* background-color: #384248; */
+        margin-top: 16px;
+        cursor: pointer;
+        outline-color: white;
+      }
+      #three {
+        display: flex;
+        font-size: 13px;
+        color: #fff;
+        cursor: pointer;
+        margin-left: 30px;
+      }
+      #image3 {
+        /* background-color: #384248; */
+        margin-top: 16px;
+        cursor: pointer;
+        outline-color: white;
+      }
+      .two {
+        width: 90px;
+        height: 50px;
+      }
 
-        .card {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: rgb(242, 242, 242);
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            height: max-content;
-            width: 100%;
-            margin-bottom: 5%;
-        }
+      .three {
+        width: 60px;
+        height: 40px;
+      }
+      #four {
+        display: flex;
+        font-size: 13px;
+        cursor: pointer;
+        margin-left: 26px;
+        margin-top: 16px;
+      }
+      #five {
+        display: flex;
+        font-size: 13px;
+        cursor: pointer;
+        margin-left: 18px;
+        margin-top: 16px;
+      }
+      #six {
+        margin-top: 14px;
+      }
 
-        .card img {
-            margin: auto;
-            height: 100%;
-            width: 100%;
+      select {
+        padding-top: 5px;
+      }
 
-        }
+      /* 2nd */
 
-        .category {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: small;
+      .searchContainer {
+        margin: 1em 0 0 10em;
+        display: flex;
+      }
 
-        }
+      .bar {
+        padding-left: 120px;
+      }
 
-        p {
-            margin: 0;
-            text-align: left;
-            padding-bottom: 3%;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
+      .reebok-logo {
+        background-color: white;
+        width: auto;
+        margin: 4em 0 0 0;
+      }
 
-        .top-left {
-            text-transform: uppercase;
-            position: absolute;
-            top: 10px;
-            left: 0px;
-            background-image: linear-gradient(285deg, rgb(46, 164, 224), rgb(49, 198, 132));
-            color: rgb(255, 255, 255);
-        }
+      .expressDelivery {
+        width: 300px;
+        height: 40px;
+        border-radius: 40px;
+        background-color: #c52d30;
+        display: inline-block;
+        color: white;
+        text-indent: 12px;
+        padding-top: 20px;
+      }
 
-        .top-right {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-        }
+      #search {
+        margin: 0 0 0 0;
+      }
+      #search input {
+        border: none;
+        border-bottom: 1px solid black;
+      }
 
-        .inner-container {
-            margin: 1%;
-        }
+      /* 3rd */
+      .card-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin: 1% 5% 2% 5%;
+      }
 
-        .logo {
-            /* margin: 0 0 0 10px; */
-            position: relative;
-            right: -200px;
-        }
+      .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(242, 242, 242);
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        height: max-content;
+        width: 100%;
+        margin-bottom: 5%;
+      }
+
+      .card img {
+        margin: auto;
+        height: 100%;
+        width: 100%;
+      }
+
+      .category {
+        font-family: "Times New Roman", Times, serif;
+        font-size: small;
+      }
+
+      p {
+        margin: 0;
+        text-align: left;
+        padding-bottom: 3%;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      .top-left {
+        text-transform: uppercase;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        background-image: linear-gradient(
+          285deg,
+          rgb(46, 164, 224),
+          rgb(49, 198, 132)
+        );
+        color: rgb(255, 255, 255);
+      }
+
+      .top-right {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      .inner-container {
+        margin: 1%;
+      }
+
+      .logo {
+        /* margin: 0 0 0 10px; */
+        position: relative;
+        right: -200px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- 1st -->
+    <header>
+      <div id="container">
+        <label>MORE BRANDS</label>
+        <select name="brands" id="brands">
+          <option value="" type=""></option>
+        </select>
 
-
+        <div id="one">
+          <div id="image1">
+            <img src="./stores.png" alt="" />
+          </div>
+          <span>STORES</span>
+        </div>
+        <div id="two">
+          <div id="image2">
+            <img src="./contact.png" alt="" />
+          </div>
+          <span class="two">CONTACT US</span>
+        </div>
+        <div id="three">
+          <div id="image3">
+            <img src="./admin.png" alt="" />
+          </div>
+          <span class="three">LOG IN</span>
+        </div>
+        <div id="four">
+          <img src="./wishlist.png" alt="" />
+        </div>
+        <div id="five">
+          <img src="./cart.png" alt="" />
+        </div>
+        <div id="six">
+          <img src="aditya.png" alt="" />
+        </div>
+      </div>
+    </header>
 
     <!-- 2nd -->
-<div class="searchContainer">
-
-    <a href="https://reebok.abfrl.in/"><img style="width: 10%; padding-left: 40px;"
-            src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format"
-            alt="reebok"></a>
-    <span class="bar">
-        <a style="text-decoration: none; color: black"
-            href="https://reebok.abfrl.in/c/new-feature-collection-reebok">NEW</a> &nbsp;&nbsp;
-        <a style="text-decoration: none; color: black" href="https://reebok.abfrl.in/c/men">MEN</a> &nbsp;&nbsp;
-        <a style="text-decoration: none; color: black" href="https://reebok.abfrl.in/c/women">WOMEN</a> &nbsp;&nbsp;
-        <a style="text-decoration: none; color: black" href="https://reebok.abfrl.in/shop/icons">ICONS</a> &nbsp;&nbsp;
-        <a style="text-decoration: none; color: black"
-            href="https://reebok.abfrl.in/c/sports-men-megamenu-l1">SPORTS</a> &nbsp;&nbsp;
-        <a style="text-decoration: none; color: black" href="https://reebok.abfrl.in/c/classics-all">CLASSICS</a>
-        &nbsp;&nbsp;
-        <a style="text-decoration: none; color: red" href="https://reebok.abfrl.in/c/sale-all">SALE</a> &nbsp;&nbsp;
-    </span>
-    <span id="search">
-        <script src="https://kit.fontawesome.com/414ae88f0d.js" crossorigin="anonymous"></script>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="search" name="search" placeholder=" search" />
-    </span>
-    <span class="expressDelivery"> <span id="bus">
-            <script src="https://kit.fontawesome.com/414ae88f0d.js" crossorigin="anonymous"></script>
-            <i class="fa-solid fa-truck"></i>
-        </span>EXPRESS DELIVERY<br>
-        <span style="text-align: center; padding-left: 48px;">Select your nearest store &#62;</span>
-    </span>
-
-</div>
+    <div class="searchContainer">
+      <div class="reebok-image">
+        <img
+          class="reebok-logo"
+          src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format"
+          alt="reebok"
+        />
+      </div>
+      <div class="search-icon">
+        <span class="bar">
+          <a
+            style="text-decoration: none; color: black"
+            href="https://reebok.abfrl.in/c/new-feature-collection-reebok"
+            >NEW</a
+          >
+          &nbsp;&nbsp;
+          <a
+            style="text-decoration: none; color: black"
+            href="https://reebok.abfrl.in/c/men"
+            >MEN</a
+          >
+          &nbsp;&nbsp;
+          <a
+            style="text-decoration: none; color: black"
+            href="https://reebok.abfrl.in/c/women"
+            >WOMEN</a
+          >
+          &nbsp;&nbsp;
+          <a
+            style="text-decoration: none; color: black"
+            href="https://reebok.abfrl.in/shop/icons"
+            >ICONS</a
+          >
+          &nbsp;&nbsp;
+          <a
+            style="text-decoration: none; color: black"
+            href="https://reebok.abfrl.in/c/sports-men-megamenu-l1"
+            >SPORTS</a
+          >
+          &nbsp;&nbsp;
+          <a
+            style="text-decoration: none; color: black"
+            href="https://reebok.abfrl.in/c/classics-all"
+            >CLASSICS</a
+          >
+          &nbsp;&nbsp;
+          <a
+            style="text-decoration: none; color: red"
+            href="https://reebok.abfrl.in/c/sale-all"
+            >SALE</a
+          >
+          &nbsp;&nbsp;
+        </span>
+        <span id="search">
+          <script
+            src="https://kit.fontawesome.com/414ae88f0d.js"
+            crossorigin="anonymous"
+          ></script>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" name="search" placeholder=" search" />
+        </span>
+        <span class="expressDelivery">
+          <span id="bus">
+            <script
+              src="https://kit.fontawesome.com/414ae88f0d.js"
+              crossorigin="anonymous"
+            ></script>
+            <i class="fa-solid fa-truck"></i> </span
+          >EXPRESS DELIVERY<br />
+          <span style="text-align: center; padding-left: 48px"
+            >Select your nearest store &#62;</span
+          >
+        </span>
+      </div>
+    </div>
 
     <div class="card-container">
-        <div class="inner-container">
-
-            <div class="card">
-                <span class="top-left">I am the new</span>
-                <span class="top-right material-symbols-outlined">favorite</span>
-                <img src="https://imagescdn.reebok.in/img/app/product/3/39624678-12852906.jpg?q=75&auto=format&w=387"
-                    alt="">
-            </div>
-            <p class="category">TRAINING SHOES<span><img class="logo"
-                        src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
-            <p>Reebok Woman NFX Trainer</p>
-            <p>
-                <b>&#8377; 3000</b>
-            </p>
+      <div class="inner-container">
+        <div class="card">
+          <span class="top-left">I am the new</span>
+          <span class="top-right material-symbols-outlined">favorite</span>
+          <img
+            src="https://imagescdn.reebok.in/img/app/product/3/39624678-12852906.jpg?q=75&auto=format&w=387"
+            alt=""
+          />
         </div>
-        <div class="inner-container">
-
-            <div class="card">
-                <span class="top-left">I am the new</span>
-                <span class="top-right material-symbols-outlined">favorite</span>
-                <img src="https://imagescdn.reebok.in/img/app/product/3/39627622-12952976.jpg?q=75&auto=format&w=387"
-                    alt="">
-            </div>
-            <p class="category">TRAINING SHOES <span><img class="logo"
-                        src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
-            <p>Reebok Woman NFX Trainer</p>
-            <p>
-                <b>&#8377; 3000</b>
-            </p>
+        <p class="category">
+          TRAINING SHOES<span
+            ><img
+              class="logo"
+              src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"
+          /></span>
+        </p>
+        <p>Reebok Woman NFX Trainer</p>
+        <p>
+          <b>&#8377; 3000</b>
+        </p>
+      </div>
+      <div class="inner-container">
+        <div class="card">
+          <span class="top-left">I am the new</span>
+          <span class="top-right material-symbols-outlined">favorite</span>
+          <img
+            src="https://imagescdn.reebok.in/img/app/product/3/39627622-12952976.jpg?q=75&auto=format&w=387"
+            alt=""
+          />
         </div>
-        <div class="inner-container">
-
-            <div class="card">
-                <span class="top-left">I am the new</span>
-                <span class="top-right material-symbols-outlined">favorite</span>
-                <img src="https://imagescdn.reebok.in/img/app/product/3/39630553-13059300.jpg?q=75&auto=format&w=387"
-                    alt="">
-            </div>
-            <p class="category">TRAINING SHOES <span><img class="logo"
-                        src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
-            <p>Reebok Woman NFX Trainer</p>
-            <p>
-                <b>&#8377; 3000</b>
-            </p>
+        <p class="category">
+          TRAINING SHOES
+          <span
+            ><img
+              class="logo"
+              src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"
+          /></span>
+        </p>
+        <p>Reebok Woman NFX Trainer</p>
+        <p>
+          <b>&#8377; 3000</b>
+        </p>
+      </div>
+      <div class="inner-container">
+        <div class="card">
+          <span class="top-left">I am the new</span>
+          <span class="top-right material-symbols-outlined">favorite</span>
+          <img
+            src="https://imagescdn.reebok.in/img/app/product/3/39630553-13059300.jpg?q=75&auto=format&w=387"
+            alt=""
+          />
         </div>
-        <div class="inner-container">
-
-            <div class="card">
-                <span class="top-left">I am the new</span>
-                <span class="top-right material-symbols-outlined">favorite</span>
-                <img src="https://imagescdn.reebok.in/img/app/product/3/39625380-12885039.jpg?q=75&auto=format&w=387"
-                    alt="">
-            </div>
-            <p class="category">TRAINING SHOES <span><img class="logo"
-                        src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"></span> </p>
-            <p>Reebok Woman NFX Trainer</p>
-            <p>
-                <b>&#8377; 3000</b>
-            </p>
+        <p class="category">
+          TRAINING SHOES
+          <span
+            ><img
+              class="logo"
+              src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"
+          /></span>
+        </p>
+        <p>Reebok Woman NFX Trainer</p>
+        <p>
+          <b>&#8377; 3000</b>
+        </p>
+      </div>
+      <div class="inner-container">
+        <div class="card">
+          <span class="top-left">I am the new</span>
+          <span class="top-right material-symbols-outlined">favorite</span>
+          <img
+            src="https://imagescdn.reebok.in/img/app/product/3/39625380-12885039.jpg?q=75&auto=format&w=387"
+            alt=""
+          />
         </div>
+        <p class="category">
+          TRAINING SHOES
+          <span
+            ><img
+              class="logo"
+              src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/v-hicon-similar.svg"
+          /></span>
+        </p>
+        <p>Reebok Woman NFX Trainer</p>
+        <p>
+          <b>&#8377; 3000</b>
+        </p>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
